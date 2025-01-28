@@ -7,7 +7,7 @@ import { adicionarAoCarrinho } from "./menuCarrinho"
         for( const produtoCatalogo of catalogo){
 
             const cartaoProduto = `<div class='border-solid  w-48 m-2 flex flex-col p-2 justify-between shadow-xl shadow-slate-400 rounded-lg group ${produtoCatalogo.feminino ? 'feminino' : 'masculino'}' id="card-produto-${produtoCatalogo.id}">
-        <img src="assets/img/${produtoCatalogo.imagem}" class="group-hover:scale-110 duration-300 my-3 rounded-lg" alt="Produto 1"> 
+        <img src="../public/img/${produtoCatalogo.imagem}" class="group-hover:scale-110 duration-300 my-3 rounded-lg" alt="Produto 1"> 
         <p class="text-sm">${produtoCatalogo.marca}</p>
         <figcaption class="text-sm">${produtoCatalogo.nome}</figcaption>
         <p class="text-sm">$${produtoCatalogo.preco}</p>
