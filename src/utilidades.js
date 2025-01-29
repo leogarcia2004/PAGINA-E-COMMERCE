@@ -4,7 +4,7 @@ export const catalogo = [
           marca: 'Zara',
           nome: 'Camisa Larga com Bolsos',
           preco: 70,
-          imagem: '../public/image/product-1.jpg', 
+          imagem: '/public/image/product-6.jpg', 
           feminino: false, 
         },
         { 
@@ -12,14 +12,14 @@ export const catalogo = [
           marca: 'Zara',
           nome: 'Casaco Reto com Lã',
           preco: 85,
-          imagem: '../public/image/product-2.jpg',
+          imagem: '/public/image/product-6.jpg',
           feminino: true, 
         },
         { 
           id: "3", marca: 'Zara',
           nome: 'Jaqueta com Efeito Camurça',
           preco: 60,
-          imagem: '../public/image/product-3.jpg',
+          imagem: '/public/image/product-6.jpg',
           feminino: false, 
         },
         { 
@@ -27,7 +27,7 @@ export const catalogo = [
           marca: 'Zara',
           nome: 'Sobretudo em Mescla de Lã',
           preco: 160,
-          imagem: '../public/image/product-4.jpg',
+          imagem: '/public/image/product-6.jpg',
           feminino: false, 
         },
         { 
@@ -35,7 +35,7 @@ export const catalogo = [
           marca: 'Zara',
           nome: 'Camisa Larga Acolchoada de Veludo Cotelê',
           preco: 110,
-          imagem: '../public/image/product-5.jpg',
+          imagem: '/public/image/product-6.jpg',
           feminino: false, 
         },
         { 
@@ -43,7 +43,7 @@ export const catalogo = [
           marca: 'Zara',
           nome: 'Casaco de Lã com Botões',
           preco: 170,
-          imagem: '../public/image/product-6.jpg',
+          imagem: '/public/image/product-6.jpg',
           feminino: true, 
         },
         { 
@@ -51,7 +51,7 @@ export const catalogo = [
           marca: 'Zara',
           nome: 'Casaco com Botões',
           preco: 75,
-          imagem: '../public/image/product-7.jpg',
+          imagem: '/public/image/product-6.jpg',
           feminino: true, 
         },
         { 
@@ -59,7 +59,7 @@ export const catalogo = [
           marca: 'Zara',
           nome: 'Colete Comprido com Cinto',
           preco: 88,
-          imagem: '../public/image/product-8.jpg',
+          imagem: '/public/image/product-6.jpg',
           feminino: true,
          }]
 
