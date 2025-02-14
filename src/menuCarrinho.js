@@ -85,7 +85,7 @@
 
         const cartaoProdutoCarrinho =  `
             <button id="remover-item-${produto.id}" class="absolute top-0 right-2"><i class="fa-solid fa-circle-xmark text-slate-500 hover:text-slate-800"></i></button>
-            <img src="assets/img/${produto.imagem}" alt="${produto.nome}" class="h-24 rounded-lg">
+            <img src=${produto.imagem} alt="${produto.nome}" class="h-24 rounded-lg">
             <div class="p-2 flex flex-col justify-between">
               <p class="text-slate-900 text-sm">${produto.nome}</p>
               <p class="text-slate-400 text-xs">Tamanho: M</p>

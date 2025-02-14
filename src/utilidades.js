@@ -1,10 +1,19 @@
+import Product1 from '../public/image/product-1.jpg'
+import Product2 from '../public/image/product-2.jpg'
+import Product3 from '../public/image/product-3.jpg'
+import Product4 from '../public/image/product-4.jpg'
+import Product5 from '../public/image/product-5.jpg'
+import Product6 from '../public/image/product-6.jpg'
+import Product7 from '../public/image/product-7.jpg'
+import Product8 from '../public/image/product-8.jpg'
+
 export const catalogo = [
         {
           id: "1",
           marca: 'Zara',
           nome: 'Camisa Larga com Bolsos',
           preco: 70,
-          imagem: '/public/image/product-6.jpg', 
+          imagem: Product1, 
           feminino: false, 
         },
         { 
@@ -12,14 +21,14 @@ export const catalogo = [
           marca: 'Zara',
           nome: 'Casaco Reto com Lã',
           preco: 85,
-          imagem: '/public/image/product-6.jpg',
+          imagem: Product2,
           feminino: true, 
         },
         { 
           id: "3", marca: 'Zara',
           nome: 'Jaqueta com Efeito Camurça',
           preco: 60,
-          imagem: '/public/image/product-6.jpg',
+          imagem: Product3,
           feminino: false, 
         },
         { 
@@ -27,7 +36,7 @@ export const catalogo = [
           marca: 'Zara',
           nome: 'Sobretudo em Mescla de Lã',
           preco: 160,
-          imagem: '/public/image/product-6.jpg',
+          imagem: Product4,
           feminino: false, 
         },
         { 
@@ -35,7 +44,7 @@ export const catalogo = [
           marca: 'Zara',
           nome: 'Camisa Larga Acolchoada de Veludo Cotelê',
           preco: 110,
-          imagem: '/public/image/product-6.jpg',
+          imagem: Product5,
           feminino: false, 
         },
         { 
@@ -43,7 +52,7 @@ export const catalogo = [
           marca: 'Zara',
           nome: 'Casaco de Lã com Botões',
           preco: 170,
-          imagem: '/public/image/product-6.jpg',
+          imagem: Product6,
           feminino: true, 
         },
         { 
@@ -51,7 +60,7 @@ export const catalogo = [
           marca: 'Zara',
           nome: 'Casaco com Botões',
           preco: 75,
-          imagem: '/public/image/product-6.jpg',
+          imagem: Product7,
           feminino: true, 
         },
         { 
@@ -59,7 +68,7 @@ export const catalogo = [
           marca: 'Zara',
           nome: 'Colete Comprido com Cinto',
           preco: 88,
-          imagem: '/public/image/product-6.jpg',
+          imagem: Product8,
           feminino: true,
          }]
 
